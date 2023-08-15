@@ -1,3 +1,3 @@
 # iHateSchool
-# iHateSchool
-# iHateSchool
+## iHateSchool
+### iHateSchool
