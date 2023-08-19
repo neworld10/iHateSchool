@@ -5,5 +5,5 @@ signIn({String? name, String? id, String? pwd}) {
 }
 
 void main() {
-  signIn(pwd: 'target', name: 'dart', id: 'hello');
+  signIn(pwd: '죽여주마', name: '리쿠하치마', id: '아루');
 }
