@@ -60,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Text("The Text")
           ],
         ),
       ),
@@ -71,4 +72,3 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
-//호에에엥
