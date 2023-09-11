@@ -1,3 +1,0 @@
-# iHateSchool
-## iHateSchool
-### iHateSchool
