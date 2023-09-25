@@ -41,7 +41,13 @@ class MyApp extends StatelessWidget {
                         SizedBox(
                           width: 10,
                         ),
-                        discordButton()
+                        DiscordButton(
+                            icons: Icon(Icons.add, color: Colors.white)),
+                        DiscordButton(
+                            icons: Icon(
+                          Icons.mic,
+                          color: Colors.white,
+                        ))
                       ],
                     ),
                   ),
@@ -53,24 +59,16 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class discordButton extends StatelessWidget {
-  const discordButton({
-    super.key,
-  });
+class DiscordButton extends StatelessWidget {
+  final Icon icons;
+  const DiscordButton({super.key, required this.icons});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       decoration: BoxDecoration(
           color: Color(0xff2d2e2e), borderRadius: BorderRadius.circular(15)),
-      child: SizedBox(
-        height: 30,
-        width: 30,
-        child: Icon(
-          Icons.add,
-          color: Colors.white,
-        ),
-      ),
+      child: SizedBox(height: 30, width: 30, child: icons),
     );
   }
 }
