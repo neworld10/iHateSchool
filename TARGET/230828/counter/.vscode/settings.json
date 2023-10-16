@@ -1,0 +1,4 @@
+{
+    "dart.flutterSdkPath": "/opt/homebrew/Caskroom/flutter/3.13.0/flutter",
+    "java.compile.nullAnalysis.mode": "automatic"
+}
